@@ -9,6 +9,7 @@ Making FPV technical knowledge accessible to Arabic-speaking pilots through open
 [![GyroGhost](https://img.shields.io/badge/org-GyroGhost-555?style=flat&logo=github)](https://github.com/GyroGhost)
 
 ---
+🌍 **Arabic localization** of Betaflight Configurator.
 
 ## 🟦 Betaflight Configurator
 
@@ -41,7 +42,6 @@ Making FPV technical knowledge accessible to Arabic-speaking pilots through open
 | [#15846](https://github.com/betaflight/betaflight/pull/15846) | OSD element showing active USER1–USER4 modes | ![](https://img.shields.io/badge/open-2ea44f) |
 <!-- PRS:betaflight/betaflight:END -->
 
-🌍 **Arabic localization** of Betaflight Configurator.
 
 ## 📡 ExpressLRS
 
