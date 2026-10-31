@@ -29,7 +29,6 @@ Making FPV technical knowledge accessible to Arabic-speaking pilots through open
 | [#5535](https://github.com/betaflight/betaflight-configurator/pull/5535) | Highlight AUX channel usage in the Receiver tab | ![](https://img.shields.io/badge/merged-8250df) |
 <!-- PRS:betaflight/betaflight-configurator:END -->
 
-🌍 **Arabic localization** of Betaflight Configurator.
 
 ## 🛩️ Betaflight Firmware
 
@@ -42,7 +41,7 @@ Making FPV technical knowledge accessible to Arabic-speaking pilots through open
 | [#15846](https://github.com/betaflight/betaflight/pull/15846) | OSD element showing active USER1–USER4 modes | ![](https://img.shields.io/badge/open-2ea44f) |
 <!-- PRS:betaflight/betaflight:END -->
 
-
+🌍 **Arabic localization** of Betaflight Configurator.
 
 ## 📡 ExpressLRS
 
