@@ -17,7 +17,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-AUTHOR = "BADERFPV"
+AUTHOR = "GyroGhost"
 REPOS = [
     "betaflight/betaflight-configurator",
     "betaflight/betaflight",
