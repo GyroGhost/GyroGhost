@@ -6,7 +6,7 @@ Making FPV technical knowledge accessible to Arabic-speaking pilots through open
 
 [![Links](https://img.shields.io/badge/gyroghost.github.io-111?style=flat&logo=github&logoColor=white)](https://gyroghost.github.io)
 [![YouTube](https://img.shields.io/badge/YouTube-@bader--fpv-red?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@bader-fpv)
-[![GyroGhost](https://img.shields.io/badge/org-GyroGhost-555?style=flat&logo=github)](https://github.com/GyroGhost)
+[![GyroGhost-Labs](https://img.shields.io/badge/org-GyroGhost--Labs-555?style=flat&logo=github)](https://github.com/GyroGhost-Labs)
 
 ---
 🌍 **Arabic localization** of Betaflight Configurator.
@@ -56,8 +56,8 @@ Making FPV technical knowledge accessible to Arabic-speaking pilots through open
 
 ## 🛠️ Projects
 
-- [bader-fpv-tools](https://github.com/BADERFPV/bader-fpv-tools)
-- [blackbox-workspaces](https://github.com/BADERFPV/blackbox-workspaces)
+- [bader-fpv-tools](https://github.com/GyroGhost/bader-fpv-tools)
+- [blackbox-workspaces](https://github.com/GyroGhost/blackbox-workspaces)
 - [gyroghost.github.io](https://github.com/GyroGhost/gyroghost.github.io)
 
 ## 🧰 Tools
