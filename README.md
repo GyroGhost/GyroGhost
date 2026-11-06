@@ -16,7 +16,6 @@ Making FPV technical knowledge accessible to Arabic-speaking pilots through open
 <!-- PRS:betaflight/betaflight-configurator:START -->
 | PR | Change | Status |
 | --- | --- | --- |
-| [#5773](https://github.com/betaflight/betaflight-configurator/pull/5773) | fix(flight-plan): show terrain as unavailable instead of 0 m when elevation lookup fails | ![](https://img.shields.io/badge/open-2ea44f) |
 | [#5716](https://github.com/betaflight/betaflight-configurator/pull/5716) | Warning before leaving a tab with unsaved changes | ![](https://img.shields.io/badge/open-2ea44f) |
 | [#5709](https://github.com/betaflight/betaflight-configurator/pull/5709) | Light mode fix: higher contrast for primary soft buttons | ![](https://img.shields.io/badge/merged-8250df) |
 | [#5699](https://github.com/betaflight/betaflight-configurator/pull/5699) | RTL fix: graph axis labels stay outside the plot (Motors, Receiver, Sensors) | ![](https://img.shields.io/badge/merged-8250df) |
