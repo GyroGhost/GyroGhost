@@ -34,7 +34,13 @@ BADGES = {
     "open": "![](https://img.shields.io/badge/open-2ea44f)",
     "draft": "![](https://img.shields.io/badge/draft-6e7681)",
     "closed": "![](https://img.shields.io/badge/closed-cf222e)",
+    "waiting": "![](https://img.shields.io/badge/waiting-d29922)",
 }
+
+# Closed PRs carrying one of these labels are parked by the maintainers
+# (e.g. the open-PR limit) and will be reopened later, so show them as
+# "waiting" instead of dropping them.
+WAITING_LABELS = ("exceeds allowed pr count",)
 
 
 def fetch_prs(repo):
@@ -55,6 +61,9 @@ def status_of(pr):
     if pr.get("pull_request", {}).get("merged_at"):
         return "merged"
     if pr["state"] == "closed":
+        labels = [l.get("name", "").lower() for l in pr.get("labels", [])]
+        if any(w in name for name in labels for w in WAITING_LABELS):
+            return "waiting"
         return "closed"
     if pr.get("draft"):
         return "draft"

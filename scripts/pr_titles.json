@@ -1,5 +1,6 @@
 {
   "betaflight/betaflight-configurator": {
+    "5773": "Flight Plan fix: terrain shows as unavailable instead of 0 m when the elevation lookup fails",
     "5727": "Feature ports marked clean only after a successful EEPROM write",
     "5716": "Warning before leaving a tab with unsaved changes",
     "5709": "Light mode fix: higher contrast for primary soft buttons",
