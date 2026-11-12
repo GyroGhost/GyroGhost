@@ -22,7 +22,7 @@
   },
   "ExpressLRS/ExpressLRS-Configurator": {},
   "EdgeTX/edgetx": {
-    "8034": "Full Arabic translation of the radio UI (~1030 strings)"
+    "8034": "Full Arabic translation of the radio UI"
   },
   "EdgeTX/edgetx-sdcard-sounds": {
     "195": "Full Arabic voice pack (734 prompts, numbers and units with proper Arabic grammar)"
