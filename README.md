@@ -64,7 +64,7 @@ Making FPV technical knowledge accessible to Arabic-speaking pilots through open
 <!-- PRS:EdgeTX/edgetx-sdcard-sounds:START -->
 | PR | Change | Status |
 | --- | --- | --- |
-| [#195](https://github.com/EdgeTX/edgetx-sdcard-sounds/pull/195) | Full Arabic voice pack (734 prompts) |       ![](https://img.shields.io/badge/merged-8250df) |
+| [#195](https://github.com/EdgeTX/edgetx-sdcard-sounds/pull/195) | Full Arabic voice pack (734 prompts) | ![](https://img.shields.io/badge/merged-8250df) |
 <!-- PRS:EdgeTX/edgetx-sdcard-sounds:END -->
 
 ## 📊 Blackbox Analysis
