@@ -22,6 +22,8 @@ REPOS = [
     "betaflight/betaflight-configurator",
     "betaflight/betaflight",
     "ExpressLRS/ExpressLRS-Configurator",
+    "EdgeTX/edgetx",
+    "EdgeTX/edgetx-sdcard-sounds",
 ]
 SHOW_CLOSED_UNMERGED = False
 
