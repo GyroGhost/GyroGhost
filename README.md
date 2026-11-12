@@ -1,6 +1,6 @@
  # Hi, I'm GyroGhost 👻👋
 
-**FPV pilot · Arabic FPV technical educator · Betaflight & ExpressLRS contributor**
+**FPV pilot · Arabic FPV technical educator · Betaflight, ExpressLRS & EdgeTX contributor**
 
 Making FPV technical knowledge accessible to Arabic-speaking pilots through open-source contributions, localization and real-flight testing.
 
@@ -50,6 +50,22 @@ Making FPV technical knowledge accessible to Arabic-speaking pilots through open
 <!-- PRS:ExpressLRS/ExpressLRS-Configurator:END -->
 
 🌍 **Arabic localization** of ExpressLRS Configurator.
+
+## 📻 EdgeTX
+
+🌍 **Arabic language for EdgeTX** — I asked for it in [#8027](https://github.com/EdgeTX/edgetx/discussions/8027), then translated the whole radio UI and the voice pack.
+
+<!-- PRS:EdgeTX/edgetx:START -->
+| PR | Change | Status |
+| --- | --- | --- |
+| [#8034](https://github.com/EdgeTX/edgetx/pull/8034) | Full Arabic translation of the radio UI (~1030 strings) | ![](https://img.shields.io/badge/merged-8250df) |
+<!-- PRS:EdgeTX/edgetx:END -->
+
+<!-- PRS:EdgeTX/edgetx-sdcard-sounds:START -->
+| PR | Change | Status |
+| --- | --- | --- |
+| [#195](https://github.com/EdgeTX/edgetx-sdcard-sounds/pull/195) | Full Arabic voice pack (734 prompts, numbers and units with proper Arabic grammar) | ![](https://img.shields.io/badge/merged-8250df) |
+<!-- PRS:EdgeTX/edgetx-sdcard-sounds:END -->
 
 ## 📊 Blackbox Analysis
 
