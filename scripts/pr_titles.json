@@ -20,5 +20,11 @@
     "15898": "Fix osd_uart lost on legacy MSP + VTX_MSP builds without VTX",
     "15846": "OSD element showing active USER1–USER4 modes"
   },
-  "ExpressLRS/ExpressLRS-Configurator": {}
+  "ExpressLRS/ExpressLRS-Configurator": {},
+  "EdgeTX/edgetx": {
+    "8034": "Full Arabic translation of the radio UI (~1030 strings)"
+  },
+  "EdgeTX/edgetx-sdcard-sounds": {
+    "195": "Full Arabic voice pack (734 prompts, numbers and units with proper Arabic grammar)"
+  }
 }
