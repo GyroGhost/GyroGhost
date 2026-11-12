@@ -5,6 +5,10 @@ Each repo in REPOS gets its own block in the README, between:
     <!-- PRS:owner/repo:START -->
     <!-- PRS:owner/repo:END -->
 
+A block can also hold several repos in one table, joined with "+":
+    <!-- PRS:owner/repo1+owner/repo2:START -->
+    <!-- PRS:owner/repo1+owner/repo2:END -->
+
 Custom descriptions live in scripts/pr_titles.json. A PR without one
 shows its GitHub title.
 """
@@ -72,7 +76,7 @@ def status_of(pr):
     return "open"
 
 
-def build_table(repo, prs, titles):
+def build_rows(repo, prs, titles):
     rows = []
     for pr in sorted(prs, key=lambda p: p["number"], reverse=True):
         status = status_of(pr)
@@ -83,6 +87,10 @@ def build_table(repo, prs, titles):
         text = text.replace("|", "\\|")
         link = f"[#{num}](https://github.com/{repo}/pull/{num})"
         rows.append(f"| {link} | {text} | {BADGES[status]} |")
+    return rows
+
+
+def build_table(rows):
     if not rows:
         return ""
     head = "| PR | Change | Status |\n| --- | --- | --- |"
@@ -103,11 +111,15 @@ def main():
     titles = json.loads(TITLES.read_text(encoding="utf-8")) if TITLES.exists() else {}
     readme = README.read_text(encoding="utf-8")
     new = readme
-    for repo in REPOS:
-        if f"<!-- PRS:{repo}:START -->" not in new:
+    keys = re.findall(r"<!-- PRS:(\S+?):START -->", new)
+    for key in keys:
+        repos = key.split("+")
+        if not all(repo in REPOS for repo in repos):
             continue
-        prs = fetch_prs(repo)
-        new = replace_block(new, repo, build_table(repo, prs, titles))
+        rows = []
+        for repo in repos:
+            rows += build_rows(repo, fetch_prs(repo), titles)
+        new = replace_block(new, key, build_table(rows))
     if new != readme:
         README.write_text(new, encoding="utf-8")
         print("README updated")
