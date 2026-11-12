@@ -53,7 +53,7 @@ Making FPV technical knowledge accessible to Arabic-speaking pilots through open
 
 ## 📻 EdgeTX
 
-🌍 **Arabic language for EdgeTX** — I asked for it in [#8027](https://github.com/EdgeTX/edgetx/discussions/8027), then translated the whole radio UI and the voice pack.
+🌍 **Arabic language for EdgeTX** — [#8027](https://github.com/EdgeTX/edgetx/discussions/8027), then translated the whole radio UI and the voice pack.
 
 <!-- PRS:EdgeTX/edgetx:START -->
 | PR | Change | Status |
@@ -64,7 +64,7 @@ Making FPV technical knowledge accessible to Arabic-speaking pilots through open
 <!-- PRS:EdgeTX/edgetx-sdcard-sounds:START -->
 | PR | Change | Status |
 | --- | --- | --- |
-| [#195](https://github.com/EdgeTX/edgetx-sdcard-sounds/pull/195) | Full Arabic voice pack (734 prompts, numbers and units with proper Arabic grammar) | ![](https://img.shields.io/badge/merged-8250df) |
+| [#195](https://github.com/EdgeTX/edgetx-sdcard-sounds/pull/195) | Full Arabic voice pack (734 prompts,) | ![](https://img.shields.io/badge/merged-8250df) |
 <!-- PRS:EdgeTX/edgetx-sdcard-sounds:END -->
 
 ## 📊 Blackbox Analysis
