@@ -58,7 +58,9 @@ Making FPV technical knowledge accessible to Arabic-speaking pilots through open
 <!-- PRS:EdgeTX/edgetx+EdgeTX/edgetx-sdcard-sounds:START -->
 | PR | Change | Status |
 | --- | --- | --- |
+| [#8051](https://github.com/EdgeTX/edgetx/pull/8051) | ar: fixes from TX15 hardware testing | ![](https://img.shields.io/badge/open-2ea44f) |
 | [#8034](https://github.com/EdgeTX/edgetx/pull/8034) | Full Arabic translation of the radio UI | ![](https://img.shields.io/badge/merged-8250df) |
+| [#196](https://github.com/EdgeTX/edgetx-sdcard-sounds/pull/196) | ar-SA: use مستشعر for sensor | ![](https://img.shields.io/badge/open-2ea44f) |
 | [#195](https://github.com/EdgeTX/edgetx-sdcard-sounds/pull/195) | Full Arabic voice pack (734 prompts, numbers and units with proper Arabic grammar) | ![](https://img.shields.io/badge/merged-8250df) |
 <!-- PRS:EdgeTX/edgetx+EdgeTX/edgetx-sdcard-sounds:END -->
 
