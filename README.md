@@ -22,7 +22,7 @@ Making FPV technical knowledge accessible to Arabic-speaking pilots through open
 | [#5709](https://github.com/betaflight/betaflight-configurator/pull/5709) | Light mode fix: higher contrast for primary soft buttons | ![](https://img.shields.io/badge/merged-8250df) |
 | [#5699](https://github.com/betaflight/betaflight-configurator/pull/5699) | RTL fix: graph axis labels stay outside the plot (Motors, Receiver, Sensors) | ![](https://img.shields.io/badge/merged-8250df) |
 | [#5682](https://github.com/betaflight/betaflight-configurator/pull/5682) | Linux fix: invisible SAVE toolbar (WebKitGTK DMA-BUF renderer) | ![](https://img.shields.io/badge/merged-8250df) |
-| [#5681](https://github.com/betaflight/betaflight-configurator/pull/5681) | OSD element showing active USER1–USER4 modes | ![](https://img.shields.io/badge/draft-6e7681) |
+| [#5681](https://github.com/betaflight/betaflight-configurator/pull/5681) | OSD element showing active USER1–USER4 modes | ![](https://img.shields.io/badge/open-2ea44f) |
 | [#5677](https://github.com/betaflight/betaflight-configurator/pull/5677) | RTL fix: preset card icons no longer overlap the title | ![](https://img.shields.io/badge/merged-8250df) |
 | [#5672](https://github.com/betaflight/betaflight-configurator/pull/5672) | Visible feedback during legacy magnetometer calibration | ![](https://img.shields.io/badge/merged-8250df) |
 | [#5659](https://github.com/betaflight/betaflight-configurator/pull/5659) | Magnetometer calibration now works more than once | ![](https://img.shields.io/badge/merged-8250df) |
