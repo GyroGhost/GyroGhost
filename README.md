@@ -16,6 +16,7 @@ Making FPV technical knowledge accessible to Arabic-speaking pilots through open
 <!-- PRS:betaflight/betaflight-configurator:START -->
 | PR | Change | Status |
 | --- | --- | --- |
+| [#5823](https://github.com/betaflight/betaflight-configurator/pull/5823) | fix: reject saveToEeprom when the FC refuses the EEPROM write | ![](https://img.shields.io/badge/open-2ea44f) |
 | [#5773](https://github.com/betaflight/betaflight-configurator/pull/5773) | Flight Plan fix: terrain shows as unavailable instead of 0 m when the elevation lookup fails | ![](https://img.shields.io/badge/open-2ea44f) |
 | [#5727](https://github.com/betaflight/betaflight-configurator/pull/5727) | Feature ports marked clean only after a successful EEPROM write | ![](https://img.shields.io/badge/open-2ea44f) |
 | [#5716](https://github.com/betaflight/betaflight-configurator/pull/5716) | Warning before leaving a tab with unsaved changes | ![](https://img.shields.io/badge/merged-8250df) |
